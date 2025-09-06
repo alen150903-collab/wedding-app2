@@ -1,0 +1,101 @@
+/* Цвета */
+:root {
+  --dark-blue: #1a2a40;
+  --powder-pink: #f2d7d5;
+  --white: #ffffff;
+}
+
+/* Общий стиль */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+}
+
+/* Шапка */
+.hero {
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, var(--dark-blue), #22334f);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: var(--powder-pink);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: var(--powder-pink);
+  color: var(--dark-blue);
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* Фичи */
+#features {
+  background: var(--white);
+  color: var(--dark-blue);
+  padding: 50px 20px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: var(--powder-pink);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* Футер */
+footer {
+  background: #111a2b;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* Анимации */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.fade-in.delay {
+  animation-delay: 0.5s;
+}
+
+.fade-in.delay2 {
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

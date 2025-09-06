@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 class="fade-in">Wedding App</h1>
+    <p class="fade-in delay">Plan your perfect wedding in one place</p>
+    <a href="#features" class="btn fade-in delay2">Explore Features</a>
+  </header>
+
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="features-grid">
+      <div class="card">
+        <h3>Vendors</h3>
+        <p>Find florists, venues, and more in one app.</p>
+      </div>
+      <div class="card">
+        <h3>Invitations</h3>
+        <p>Create and send digital invites with ease.</p>
+      </div>
+      <div class="card">
+        <h3>Budget Tracker</h3>
+        <p>Keep your wedding finances under control.</p>
+      </div>
+      <div class="card">
+        <h3>Wishlist</h3>
+        <p>Share your dream gifts with your guests.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Wedding App. All rights reserved.</p>
+  </footer>
+</body>
+</html>
